@@ -1,0 +1,81 @@
+.title{
+	font: 32px 'Muli';
+	font-weight: 400;
+	margin-bottom: 20px;
+  color: orange;
+}
+
+body{
+	background: #D9D9D9;
+	font-family: 'Muli';
+}
+
+
+canvas{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.canvas{
+	display: block;
+	margin: 20px;
+}
+
+.container{
+	background: white;
+	border-radius: 3px;
+	padding: 20px;
+	box-sizing: content-box;
+	width: 80%;
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, .18);
+	margin: 50px auto;
+	border: 2.5px solid orange;
+}
+
+.text-center{
+	display: block;
+	text-align: center;
+}
+
+.text-gray{
+	color: gray;
+}
+
+.footer{
+	float: right;
+	display: inline-block;
+	margin-right: 5px;
+}
+.voltage{
+	display:inline-block;
+}
+
+.btn{
+	margin: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+	border: 2px solid orange;
+	border-radius: 5px;
+	transition: all .5s;
+	font-size: 15px;
+}
+.btn:hover{
+	background-color: #ffd1a8;
+
+}
+
+.time_input{
+	padding: 5px;
+	background-color: white;
+	border: 2px solid orange;
+	border-radius: 5px;
+}
